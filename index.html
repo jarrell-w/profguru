@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li>Home</li>
+                <li>Settings</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <header class="banner">
+            <div>
+             <img src="images/logo.png" alt="owl character">
+            </div>
+     </header>
+     <section class="input-area">
+        <label for="input-box"></label>
+        <textarea name="input-box" id="input-box" cols="40" rows="7" placeholder="Enter..." maxlength="100"></textarea>
+        <input type="button" value="Add New Card" id="add-new-card">
+     </section>
+    <main class="container">
+        <nav class="left-nav">
+            <h2>Left Nav</h2>
+        </nav>
+        <section class="card-area">
+            <div class="cards-container">
+                <div class="cards">
+                    <div class="card-container">
+                        <h2>
+                            <span>Not Started</span>
+                        </h2>
+                        <div class="card" id="card1"></div>
+                    </div>
+                    <div class="card-container">
+                        <h2>
+                            <span>In Progress</span>
+                        </h2>
+                        <div class="card" id="card2"></div>
+                    </div>
+                    <div class="card-container">
+                        <h2>
+                            <span>Completed</span>
+                        </h2>
+                        <div class="card" id="card3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <nav class="right-nav">
+            <h2>Right Nav</h2>
+        </nav>
+    </main>
+    
+</body>
+<script src="./app.js"></script>
+</html>
